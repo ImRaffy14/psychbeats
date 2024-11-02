@@ -6,8 +6,8 @@ import harp from '../assets/Instruments/Harp.png';
 import flute from '../assets/Instruments/Flute.png';
 import xylophone from '../assets/Instruments/Xylophone.png';
 import sitar from '../assets/Instruments/Sitar.png';
-import Typical from 'react-typical'
 import ReactPlayer from 'react-player';
+import { Typewriter } from 'react-simple-typewriter';
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 function Anger() {
@@ -26,13 +26,16 @@ function Anger() {
         />
 
         <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md mt-10">
-            <Typical
-            loop={false}
-            steps={[ `Hey! I’m Anger. When life feels overwhelming, I’m here to help you regain your strength. With calm, and soothing music, we’re going to channel that energy into something powerful. Let’s face these challenges and let the music be our release. 
+        <Typewriter
+            words={[`Hey! I’m Anger. When life feels overwhelming, I’m here to help you regain your strength. With calm, and soothing music, we’re going to channel that energy into something powerful. Let’s face these challenges and let the music be our release. 
             Ready to unleash that cool sound?
-            `,
-            100, ]}
-            />
+            `]}
+            cursor
+            cursorStyle='_'
+            typeSpeed={60}
+            deleteSpeed={0}
+            delaySpeed={500}
+          />
         </div>
 
         </div>

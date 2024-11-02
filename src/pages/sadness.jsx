@@ -5,8 +5,8 @@ import guitar from '../assets/Instruments/Guitar.png'
 import harp from '../assets/Instruments/Harp.png'
 import eGuitar from '../assets/Instruments/Electric Guitar.png'
 import violin from '../assets/Instruments/Violin.png'
-import Typical from 'react-typical'
 import ReactPlayer from 'react-player';
+import { Typewriter } from 'react-simple-typewriter';
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 function sadness() {
@@ -24,13 +24,15 @@ function sadness() {
                 height="0px"
             />
     
-            <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md mt-10">
-                <Typical
-                loop={false}
-                steps={[ `Hey there, I’m Sadness. I’m here for those moments when life feels heavy, and I get it—it’s okay to feel down sometimes. I’ll bring you soothing, gentle music, a space where you can just be. Together, we’ll turn these feelings into something beautiful, one note at a time. Ready to explore how powerful sound can be? Let’s take this journey together.
-                `,
-                100, ]}
-                />
+            <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md mt-109">
+                <Typewriter
+                words={[`Hey there, I’m Sadness. I’m here for those moments when life feels heavy, and I get it—it’s okay to feel down sometimes. I’ll bring you soothing, gentle music, a space where you can just be. Together, we’ll turn these feelings into something beautiful, one note at a time. Ready to explore how powerful sound can be? Let’s take this journey together.`]}
+                cursor
+                cursorStyle='_'
+                typeSpeed={60}
+                deleteSpeed={0}
+                delaySpeed={500}
+              />
             </div>
     
             </div>

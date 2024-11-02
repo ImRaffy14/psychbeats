@@ -5,8 +5,8 @@ import acoustic from '../assets/Instruments/Acoustic.png'
 import cello from '../assets/Instruments/Cello.png'
 import harp from '../assets/Instruments/Harp.png'
 import violin from '../assets/Instruments/Violin.png'
-import Typical from 'react-typical'
 import ReactPlayer from 'react-player';
+import { Typewriter } from 'react-simple-typewriter';
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 function ennui() {
@@ -25,12 +25,14 @@ function ennui() {
             />
     
             <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md">
-                <Typical
-                loop={false}
-                steps={[ `Hey, I’m Ennui! When everything feels a bit dull, and boredom starts to creep in, I’m here to brighten things up. I’ll bring inspiring and uplifting music to reignite that spark within you. With melodic tunes crafted to stir your mind and creativity, together, we’ll break free from the monotony and discover joy in the little moments. Ready to shake things up?
-                `,
-                100, ]}
-                />
+              <Typewriter
+                words={[`Hey, I’m Ennui! When everything feels a bit dull, and boredom starts to creep in, I’m here to brighten things up. I’ll bring inspiring and uplifting music to reignite that spark within you. With melodic tunes crafted to stir your mind and creativity, together, we’ll break free from the monotony and discover joy in the little moments. Ready to shake things up?`]}
+                cursor
+                cursorStyle='_'
+                typeSpeed={60}
+                deleteSpeed={0}
+                delaySpeed={500}
+            />
             </div>
     
             </div>

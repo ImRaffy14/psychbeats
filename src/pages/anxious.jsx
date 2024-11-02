@@ -5,8 +5,8 @@ import acoustic from '../assets/Instruments/Acoustic.png'
 import cello from '../assets/Instruments/Cello.png'
 import harp from'../assets/Instruments/Harp.png'
 import violin from '../assets/Instruments/Violin.png'
-import Typical from 'react-typical'
 import ReactPlayer from 'react-player';
+import { Typewriter } from 'react-simple-typewriter';
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 function anxious() {
@@ -25,12 +25,14 @@ function anxious() {
             />
     
             <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md mt-10">
-                <Typical
-                loop={false}
-                steps={[ `Hey there, I’m Anxious. When life feels overwhelming and those anxious thoughts start to creep in, I’m here with calming, grounding music just for you. Together, we’ll create a safe space to breathe, relax, and find your focus again. Let’s navigate those tough moments side by side and find peace in the chaos.
-                `,
-                100, ]}
-                />
+              <Typewriter
+                words={[`Hey there, I’m Anxious. When life feels overwhelming and those anxious thoughts start to creep in, I’m here with calming, grounding music just for you. Together, we’ll create a safe space to breathe, relax, and find your focus again. Let’s navigate those tough moments side by side and find peace in the chaos.`]}
+                cursor
+                cursorStyle='_'
+                typeSpeed={60}
+                deleteSpeed={0}
+                delaySpeed={500}
+              />
             </div>
     
             </div>
