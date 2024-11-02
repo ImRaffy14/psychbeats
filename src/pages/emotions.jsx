@@ -29,8 +29,7 @@ function Emotions() {
             <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md ml-5">
                 <Typewriter
                 words={[`Hey there, I’m Echo!
-                Welcome to PsychBeats, your personal space for emotional growth and balance. I’m here to guide you through the soothing world of AI-generated music. Whether you’re feeling stressed, need a focus boos
-                t, or just want to lift your mood, I’ve got the perfect track for you.
+                Welcome to PsychBeats, your personal space for emotional growth and balance. I’m here to guide you through the soothing world of AI-generated music. Whether you’re feeling stressed, need a focus boost, or just want to lift your mood, I’ve got the perfect track for you.
                 Join me in exploring how music can make a difference in your well-being. Together, we’ll discover how different sounds can strengthen your emotional resilience. Ready to tune into your best self? Let’s get started!
                 `]}
                 cursor
