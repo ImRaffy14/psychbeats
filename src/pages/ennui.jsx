@@ -24,7 +24,7 @@ function ennui() {
                 height="0px"
             />
     
-            <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md">
+            <div class="max-w-md bg-white text-gray-800 p-4 rounded-lg shadow-md mt-10">
               <Typewriter
                 words={[`Hey, I’m Ennui! When everything feels a bit dull, and boredom starts to creep in, I’m here to brighten things up. I’ll bring inspiring and uplifting music to reignite that spark within you. With melodic tunes crafted to stir your mind and creativity, together, we’ll break free from the monotony and discover joy in the little moments. Ready to shake things up?`]}
                 cursor
