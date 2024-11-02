@@ -12,7 +12,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 
 function Anger() {
   return (
-    <div className='min-h-screen w-full bg-customPurple'>
+    <div className='min-h-screen w-full bg-red-400'>
       <div className='max-w-screen-2xl mx-auto h-full flex flex-col justify-center items-center relative px-4 sm:px-6 lg:px-8'>
         <div className='flex flex-col items-center sm:flex-row'>
 

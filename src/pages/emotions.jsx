@@ -43,23 +43,25 @@ function Emotions() {
 
           </div>
 
-          <div className='flex flex-wrap justify-center items-center gap-4 mt-8'>
-            <Link to="/anger">
-              <img src={anger} alt="anger" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
-            </Link>
+            <h1 className='text-white mt-10 mb-5 text-xl'><strong>What are you feeling today?</strong></h1>
 
-            <Link to="/anxious">
-            <img src={anxious} alt="anxious" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
-            </Link>
+            <div className='flex flex-wrap justify-center items-center gap-4 '>
+                <Link to="/anger">
+                <img src={anger} alt="anger" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
+                </Link>
 
-            <Link to="/sadness">
-            <img src={sadness} alt="ennui" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
-            </Link>
+                <Link to="/anxious">
+                <img src={anxious} alt="anxious" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
+                </Link>
 
-            <Link to="/ennui">
-            <img src={ennui} alt="sadness" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
-            </Link>
-          </div>
+                <Link to="/sadness">
+                <img src={sadness} alt="ennui" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
+                </Link>
+
+                <Link to="/ennui">
+                <img src={ennui} alt="sadness" className='h-40 sm:h-[300px] transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer' />
+                </Link>
+            </div>
         </div>
       </div>
     </>
